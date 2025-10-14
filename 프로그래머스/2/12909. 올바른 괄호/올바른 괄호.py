@@ -9,7 +9,7 @@ def solution(s):
             if not stack:
                 return False
             if stack and stack.pop() != '(':
-                return False
+             return False
             
     if stack:
         return False
